@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
     protected TextView txSpeech;
     protected static final int SPEECH_CODE = 1234;
     protected TextToSpeech tts;
+    protected Button a;
 
     public void onInit(int status) {
         if(status == TextToSpeech.SUCCESS){
